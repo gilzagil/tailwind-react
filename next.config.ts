@@ -5,9 +5,8 @@ const nextConfig: NextConfig = {
   reactStrictMode: true,
   images:{
     domains:[
-      "img.freepik.com"
+      'img.freepik.com'
     ]
-
   }
 };
 
