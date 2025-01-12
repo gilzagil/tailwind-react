@@ -9,7 +9,7 @@ export default function Titulo(props: TituloProps){
             <h1 className={
                 `text-4xl font-black
                 ${props.gradiente 
-                ? "bg-gradient-to-r from-purple-700 to-yellow-500 bg-clip-text text-transparent" 
+                ? "bg-gradient-to-r from-blue-700 to-green-500 bg-clip-text text-transparent" 
                 : ""}
                 `}>
                     {props.principal}

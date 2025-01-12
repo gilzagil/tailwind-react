@@ -4,7 +4,9 @@ import Titulo from "@/components/template/titulo";
 export default function Home() {
   return (
     <Pagina>
-      <Titulo principal="Início" secundario="Curso de React com Tailwind"/>
+      <Titulo principal="Início"    
+              secundario="Curso de React com Tailwind"
+              gradiente/>
     </Pagina>
   );
 }

@@ -28,8 +28,8 @@ export default function Menu(props: MenuProps){
 
            <MenuGrupo texto="extras"/>
            <MenuItem icone={<IconContainer/>} texto="Container" url="/extras/container" /> 
-           <MenuItem icone={<IconTypography/>} texto="Gradiente" url="/extras/gradiente" /> 
-           <MenuItem icone={<IconTexture/>} texto="Texto Gradiente" url="/extras/titulo" /> 
+           <MenuItem icone={<IconTexture/>} texto="Gradiente" url="/extras/gradiente" /> 
+           <MenuItem icone={<IconTypography/>} texto="Texto Gradiente" url="/extras/titulo" /> 
         </div>
     )
 }

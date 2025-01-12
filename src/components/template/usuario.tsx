@@ -9,7 +9,7 @@ interface UsuarioProps{
 
 export default function Usuario(props:UsuarioProps){
     return(
-        <div className="flex pl-4">
+        <div className="flex p-2 ">
             <Image 
               src={props.imagemUrl} 
               alt="avatar"
@@ -23,7 +23,7 @@ export default function Usuario(props:UsuarioProps){
                 <span>{props.email}</span>
             </div>
             <div className="flex-1"></div>
-            <IconDotsVertical className="cursor-pointer"/>
+            <IconDotsVertical className="cursor-pointer flex-1 text-zinc-400"/>
         </div>
     )
 }
